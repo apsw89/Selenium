@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Task01 {
+public class Task01WebOrders {
     /**
      * Task
      * Navigate to http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx
