@@ -1,0 +1,19 @@
+Handling multiple windows:
+
+getWindowHandle()
+getWindowsHandles()
+
+WindowHandle:
+is a unique ID that holds the address od the window or a tab
+Its approximately 40 alphanumeric ID
+the original page is called parent handle
+and additional tab is called child handle
+
+Most of the times when you interact with links will open a new tab or window
+
+
+-----------------------------------------------------------------------------
+
+Synchronization:
+we are bringing out script and page load th the same speed level
+

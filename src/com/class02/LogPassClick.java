@@ -12,7 +12,15 @@ public class LogPassClick {
      Model - just layout of HTML
 
      Locator - is an address or a position of web-element on the webpage, used to locate or identify web-elements
-     Locators: ID, Name, TagName, Xpath, LinkText,PartialLinkText,CssSelectors,Classname
+     Locators:
+     ID,
+      Name,
+      TagName,
+      Xpath,
+       LinkText,
+       PartialLinkText,
+       CssSelectors,
+       Classname
      */
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");

@@ -1,0 +1,46 @@
+
+
+xPath:
+
+--Absolute xPath:
+  starts from the starting node of the HTML
+  it always starts with single slash "/":
+                  like that:  /html/body/div/div
+--Relative xPath:
+    starts from any node in HTML
+    always stars with double slash "//":
+    //tagname[@attribute = 'attribute value']
+                  like that: //input[@id='email']
+
+Identifying elements by its text:
+//tagname
+//a[text()='Create new account']
+//h2['Connect with friends and the world around you on Facebook']
+
+Identifying elements by using "contains()" method:
+//tagname[contains(@attribute, 'partial attribute value')]
+//input[contains(@placeholder,'Email')]
+//h2[contains(text(), 'the')]
+
+Starts-with identify elements by its starting value:
+//tagname [starts-with(@attribute, 'partial starting attribute value')]
+//input[starts-with(@aria-label, 'Email')]
+
+Advanced xPath:
+is based on parent and child, sibling relationships
+
+identifying elements by following sibling
+//tagname[@attribute='attribute value']/following-sibling::tagname
+//input[@id='calFromDate']/following-sibling::img
+
+identifying elements by preceding siblings
+//tagname[@attribute='attribute value']/preceding-sibling::tagname
+
+identifying by its parent
+//tagname[@attribute='attribute value']/parent::parentTagname
+
+identifying by ancestors:
+//tagname[@attribute='attribute value']/ancestor::form
+
+identifying by indexes [2]
+
