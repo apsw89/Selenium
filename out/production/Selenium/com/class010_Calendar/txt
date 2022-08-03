@@ -1,0 +1,19 @@
+
+CALENDARS
+
+Are also call as date-pickers.
+
+How to handle calendars:
+1.Click on the calendar
+2.Locate month and get text
+3.If the desired text is not visible --> we will keep clicking on next button and keep updating month text
+4.As soon as we find our desired text --> grab all the cells from the table
+5.Loop through the cells
+6.Once the cell value is matched with our condition --> click on the matched days
+
+
+Why do ween screenshots in testing?
+In testing is very important to prove that our tests covered certain functionality
+
+In Selenium in order to take screenshots we will be using the screenshot interface
+
